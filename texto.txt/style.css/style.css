@@ -1,13 +1,85 @@
 .caixa-com-css{
 
-background-color:bisque;
-color:burlywood;
+background-color:rgb(230, 195, 114);
+color:rgba(57, 43, 16, 0.548);
 
 padding: 25px;
-margin-top: 15px;
+margin: 15px auto 0;
 
-width: 350px;
+width: 700px;
 border-radius: 12px;
+text-align: center;
 
 box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.caixa-com-css ul {
+    text-align: left;
+    display: inline-block;
+    padding-left: 20px;
+    margin: 10px auto 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+body {
+    background-color: #f2e1c5;
+    color: #5c4322e5;
+    margin: 0;
+}
+
+.centro {
+    display: block;
+    margin: 0 auto;
+}
+
+.padrinhos-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.padrinho-card {
+    text-align: center;
+    width: 20%;
+}
+
+.padrinho-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+.padrinho-card p {
+    font-weight: bold;
+    font-style: italic;
+    margin: 10px 0 0;
+}
+
+.mapa-link {
+    display: block;
+    width: fit-content;
+    text-align: center;
+    margin: 15px auto;
+    padding: 12px 22px;
+    background-color: #8b5e34;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+}
+
+.mapa-link:hover {
+    background-color: #6f4a29;
 }
