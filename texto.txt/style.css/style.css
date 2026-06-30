@@ -1,0 +1,13 @@
+.caixa-com-css{
+
+background-color:bisque;
+color:burlywood;
+
+padding: 25px;
+margin-top: 15px;
+
+width: 350px;
+border-radius: 12px;
+
+box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.15);
+}
